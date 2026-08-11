@@ -1,0 +1,96 @@
+1. What is an Attribute?
+
+An attribute provides additional information about an HTML element.
+It modifies the behavior or appearance of the element.
+Attributes are written in the opening tag.
+They are written as attribute="value".
+
+Example: src, href, id, class.
+
+2. Where are Attributes Written?
+
+Attributes are written inside the opening tag.
+They appear after the element name.
+Multiple attributes can be used in one element.
+Each attribute has a name and a value.
+
+Example: <img src="image.jpg" alt="Image">
+
+3. What is the Syntax of an Attribute?
+
+The syntax is attribute="value".
+The attribute name comes first.
+The value is enclosed in double quotes.
+Multiple attributes can be added to one element.
+
+Example: <input type="text" placeholder="Enter Name">
+
+4. What is the Difference Between id and class?
+
+id is unique for one element.
+class can be used for multiple elements.
+id is selected using # in CSS.
+class is selected using . in CSS.
+Both help in styling and JavaScript.
+
+5. What is href?
+
+href stands for Hypertext Reference.
+It specifies the destination of a hyperlink.
+It is mainly used with the <a> tag.
+It can link to web pages, files, or sections.
+
+Example: <a href="https://example.com">Visit</a>
+
+6. What is src?
+
+src stands for Source.
+It specifies the location of a file.
+It is used with <img>, <audio>, <video>, and <script>.
+The browser loads the file from the given path.
+
+Example: <img src="image.jpg">
+
+7. What is alt?
+alt stands for Alternative Text.
+It displays text if the image cannot be loaded.
+It improves accessibility for screen readers.
+It is used only with the <img> tag.
+
+Example: <img src="flower.jpg" alt="Flower">
+
+8. What is placeholder?
+
+placeholder displays hint text inside an input field.
+It guides users about what to enter.
+The text disappears when typing starts.
+It is commonly used in forms.
+
+Example: <input placeholder="Enter your email">
+
+9. What is required?
+
+required makes a field mandatory.
+Users must fill it before submitting the form.
+It is used in form elements.
+It helps with basic validation.
+
+Example: <input type="email" required>
+
+10. What are Global Attributes?
+
+Global attributes work on almost every HTML element.
+They provide common functionality.
+
+Examples include id, class, style, and title.
+They help identify and style elements.
+They can be used across the entire HTML document.
+
+11. What are Local Attributes?
+
+Local attributes work only with specific HTML elements.
+They cannot be used with every tag.
+They provide functionality for particular elements.
+
+Examples include href, src, alt, and placeholder.
+They are used only where they are supported.

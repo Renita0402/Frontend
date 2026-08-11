@@ -1,0 +1,30 @@
+1.Semantic Tag
+
+The word Semantic means Meaning.
+
+Semantic tags clearly describe the purpose of the content inside them.
+
+When developers, browsers, search engines, and screen readers see a semantic tag.
+
+They can easily understand what kind of content it contains.
+
+
+2.Semantic Tags Important
+
+1. Better Readability
+Developers can easily understand the code.
+
+2. Better SEO
+Search engines understand the webpage structure better.
+
+3. Better Accessibility
+Screen readers can identify page sections correctly.
+
+4. Easier Maintenance
+Large projects become easier to manage.
+
+
+3. Non-Semantic Tags.
+  
+    div
+    span

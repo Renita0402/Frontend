@@ -1,0 +1,36 @@
+/* Box 1 - Content */
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+
+/* Box 2 - Padding */
+.box2 {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+
+/* Box 3 - Border */
+.box3 {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightyellow;
+}
+
+
+/* Box 4 - Margin */
+.box4 {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    background-color: lightcoral;
+}

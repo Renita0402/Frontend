@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 161, 161);
+}
+
+.news-container {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.news-article {
+    width: 100%;
+    height: 400px;
+
+    padding: 20px;
+
+    border: 3px solid black;
+
+    background-color: white;
+}
+
+.news-article img {
+    width: 300px;
+    height: 150px;
+
+    margin: 15px 0;
+}
+
+.news-article h2 {
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    margin: 10px;
+}
+
+
+.article-one {
+    margin-bottom: 20px;
+}
+
+.article-two {
+    margin-bottom: 40px;
+}
+
+.article-three {
+    margin-bottom: 60px;
+}

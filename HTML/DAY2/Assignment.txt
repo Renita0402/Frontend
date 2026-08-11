@@ -1,0 +1,94 @@
+Assignment
+
+1. Block Level Elements
+
+A block level element is a building block of a web page.
+Appears one below another on the webpage.
+Always starts on a new line.
+Takes the full width by default.
+Can contain both block and inline elements.
+Used for page layout and content structure.
+
+Common Block Level Elements
+
+<div>
+<p>
+<h1> to <h6>
+<section>
+<article>
+<header>
+<footer>
+<nav>
+<main>
+<aside>
+<form>
+
+Why We Use Block Elements
+
+Creating sections
+Building layouts
+Grouping content
+Structuring web pages
+
+2. Inline Elements
+
+An inline element does not start on a new line.
+Does not start on a new line.
+Occupies only the required width.
+Stays in the same line with other elements.
+Takes only the required space.
+Used inside text content.
+
+Common Inline Elements
+<span>
+<a>
+<img>
+<strong>
+<b>
+<i>
+<em>
+<mark>
+<small>
+<sup>
+<sub>
+<label>
+
+3. Formatting Tags
+
+Formatting tags are HTML tags used to change the appearance or style of text, such as making it bold, italic, highlighted, underlined, or smaller.
+Formatting tags are used to format or style text in a web page.
+
+Common Formatting Tags
+
+Tag	          Purpose
+
+<b>	        Makes text bold
+<strong>	Indicates important text
+<i>	        Makes text italic
+<em>	        Emphasizes text
+<mark>	        Highlights text
+<small>	        Displays smaller text
+<del>	        Displays deleted text
+<ins>     	Displays inserted text
+<sub>	        Displays subscript text
+<sup>	        Displays superscript text
+
+4. Interactive Tags
+
+Interactive elements allow users to interact with a web page
+Makes web pages interactive and dynamic.
+Allows users to perform actions and provide input.
+
+Common Interactive Tags
+
+Tag	               Use
+
+<a>	        Used for navigation (hyperlinks)
+<button>	Used to perform an action
+<input>	        Used to collect user input
+<select>	Creates a drop-down menu
+<textarea>	Used for multi-line text input
+<details>	Displays expandable content
+<audio>	        Embeds an audio player
+<video>   	Embeds a video player
+<form>	        Used to collect and submit user data

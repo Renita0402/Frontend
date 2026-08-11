@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.static-box {
+    position: static;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    height: 1000px;
+    padding: 20px;
+}

@@ -1,0 +1,12 @@
+
+* {
+    color: black;
+}
+
+.movie-card {
+    background-color: lightblue;
+}
+
+h2, p {
+    text-align: center;
+}

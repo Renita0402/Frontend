@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>CONTACT FORM</h1>
+    </header>
+    <main>
+        <form method="post">
+        <p><label>Full Name:</label>
+        <input type="text" placeholder="Enter Your Name" required></p>
+
+        <p><label>Phone Number:</label>
+        <input type="tel" placeholder="Enter Mobile Number" required></p>
+
+        <p><label>Email:</label>
+        <input type="text" placeholder="Enter Email Address" required></p>
+
+        <p><label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female</p>
+
+        <p><label>Reason for Contact:</label>
+        <select required>
+        <option>Select</option>
+        <option>General Inquiry</option>
+        <option>Support</option>
+        <option>Complaint</option>
+        <option>Suggestion</option>
+        </select></p>
+
+        <p><label>Message:</label><br>
+        <textarea rows="5" cols="30" placeholder="Enter Your Message"></textarea>
+        <input type="hidden" value="Contact"></p>
+
+        <p><input type="submit" value="Send"></p>
+        
+    </form>
+    </main>
+</center>
+</body>
+</html>

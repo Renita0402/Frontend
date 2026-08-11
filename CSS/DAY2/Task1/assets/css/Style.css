@@ -1,0 +1,15 @@
+* {
+    color: black;
+}
+body {
+    background-color: rgb(165, 245, 165);
+    text-align: center;
+}
+.profile-card {
+    background-color: rgb(61, 136, 206);
+    color: black;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: block;
+}

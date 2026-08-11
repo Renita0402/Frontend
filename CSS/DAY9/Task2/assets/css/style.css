@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-box {
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 350px;
+    display: block;
+    transition: 0.5s;
+}
+
+.image-box img:hover {
+    transform: scale(1.2);
+}
+

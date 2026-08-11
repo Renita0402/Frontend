@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.heading{
+    text-align: center;
+    padding: 12px;
+}
+
+.Dashboard{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+padding: 40px;
+
+}
+.cards{
+padding: 20px;
+height:150px;
+background:rgb(172, 130, 252);
+
+}

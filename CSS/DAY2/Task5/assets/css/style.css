@@ -1,0 +1,22 @@
+h2, p, span {
+    color: black;
+}
+.zoho h2, .zoho p, .zoho span {
+    color: blue;
+}
+
+.freshworks h2, .freshworks p, .freshworks span {
+    color: green;
+}
+
+.aspire h2, .aspire p, .aspire span {
+    color: red;
+}
+
+.cts h2, .cts p, .cts span {
+    color: orange;
+}
+
+.tcs h2, .tcs p, .tcs span {
+    color: purple;
+}

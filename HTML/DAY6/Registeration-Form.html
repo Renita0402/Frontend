@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+<center>
+    <header>
+        <h1>SLA INSTITUTE</h1>
+        <h2>STUDENT REGISTRATION FORM</h2>
+    </header>
+    <main>
+        <form method="post">
+            <p><label>Full Name:</label>
+                <input type="text" placeholder="Enter Name in Capital" required></p>
+
+            <p><label>Age:</label>
+            <input type="number" placeholder="Age" required></p>
+
+            <p><label>Date Of Birth:</label>
+            <input type="date" required></p>
+
+            <p><label>Qualification:</label>
+            <input type="text" placeholder="Enter Qualification" required></p>
+
+            <p><label>Department:</label>
+            <input type="text" placeholder="Which degree have you completed?" required></p>
+
+            <p><label>Phone Number:</label>
+            <input type="tel" placeholder="Enter 10-digit Mobile Number" required></p>
+
+            <p><label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female</p>
+
+            <p><label>Course:</label>
+            <select required>
+            <option>Select Course</option>
+            <option>Full Stack Development</option>
+            <option>Python Full Stack</option>
+            <option>Java Full Stack</option>
+            <option>Data Analytics</option>
+            </select></p>
+
+            <p><label>Skills:</label>
+                <input type="checkbox"> HTML
+                <input type="checkbox"> CSS
+                <input type="checkbox"> JavaScript</p>
+
+                <p><label>Address:</label><br>
+                <textarea rows="4" cols="30" placeholder="Enter Address"></textarea></p>
+
+                <p><label>Student ID:</label>
+                <input type="text" value="SLA200401" readonly></p>
+                
+                <input type="hidden" value="Registration">
+
+                <p><input type="submit" value="Register"></p>
+    </form>
+    </main>
+        </center>
+    </body>
+</html>
