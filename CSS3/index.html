@@ -1,54 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <h1>CSS3 TASKS</h1>
-    </div>
 
-    <div>
-    <a href="./DAY1/Boxes.html">Box</a>
-    <a href="./DAY1/personal.html">personal Info</a>
-    <a href="./DAY1/college-dept.html">College Department</a>
-    <a href="./DAY1/favthings.html">Favourite Thinks</a>
-    <a href="./DAY1/student-id-inline.html">Student ID</a>
-    <a href="./DAY2/Task1/student-profile.html">Student Profile</a>
-    <a href="./DAY2/Task2/IT-company.html">IT Company</a>
-    <a href="./DAY2/Task3/clg-dept-cards.html">College ID</a>
-    <a href="./DAY2/Task4/Fav-thing.html">Favourites</a>
-    <a href="./DAY2/Task5/chennai-IT.html">Chennai-IT</a>
-    <a href="./DAY3/Task1/student-profile.html">Student profo</a> 
-    <a href="./DAY3/Task2/product.html">Product</a>
-    <a href="./DAY3/Task3/Company.html">Company</a>
-    <a href="./DAY3/Task4/Article.html">Article</a>
-    <a href="./DAY3/Task5/Box-Model.html">Box Model</a>
-    <a href="./DAY4/Task1/inline-block.html">Inline Block</a> 
-    <a href="./DAY4/Task2/flex.html">Flex</a> 
-    <a href="./DAY4/Task3/propertis.html">properties</a>
-    <a href="./DAY4/Task4/Display.html">Display</a>
-    <a href="./DAY4/Task5/card.html">Card</a>
-    <a href="./DAY5/fragrance.html">Fragrance</a>
-    <a href="./DAY5.1/Task1/student-dashboard.html">Student Dashboard</a>
-    <a href="./DAY5.1/Task2/product.html">Product</a>
-    <a href="./DAY5.1/Task3/protofilo.html">protofilo</a>
-    <a href="./DAY6/Task1/fixed.html">Fixed</a> 
-    <a href="./DAY6/Task3/relative.html">Relative</a>
-    <a href="./DAY6/Task5/comparsion.html">Comparsion</a> 
-    <a href="./DAY7/Task1/image-gallery.html">Image</a>
-    <a href="./DAY7/Task2/student-dashboard.html">Dashboard</a>
-    <a href="./DAY8/Task1/button.html">Button</a>
-    <a href="./DAY8/Task2/form.html">Form</a>
-    <a href="./DAY8/Task4/pseudo.html">pseudo</a>
-    <a href="./DAY9/Task1/Animation.html">Animation</a>
-    <a href="./DAY9/Task2/image.html">Images</a>
-    <a href="./DAY9/Task3/product.html">Products</a>
-    <a href="./DAY10/Task2/e-commerce.html">Ecommerce Webpage</a>
-    <a href="./Flex layout/flex.html">Product Webpage</a> 
-   
-    </div>
+    <title>CSS Tasks | Code Progress</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen bg-slate-950 text-white">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-950">
+
+        <div class="mx-auto max-w-6xl px-6 py-6">
+
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-widest text-blue-400">
+                        Code Progress
+                    </p>
+
+                    <h1 class="mt-1 text-3xl font-bold sm:text-4xl">
+                        CSS3 Tasks
+                    </h1>
+
+                    <p class="mt-2 text-sm text-slate-400">
+                        My CSS learning tasks and daily practice.
+                    </p>
+                </div>
+
+                <a href="../index.html"
+                    class="w-fit rounded-lg border border-slate-700 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-blue-400 hover:text-blue-400">
+                    ← Back to Home
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- Tasks -->
+    <main class="mx-auto max-w-6xl px-6 py-12">
+
+
+        <!-- Day 1 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 01
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY1/Boxes.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Box →
+                </a>
+
+                <a href="./DAY1/personal.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Personal Info →
+                </a>
+
+                <a href="./DAY1/college-dept.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    College Department →
+                </a>
+
+                <a href="./DAY1/favthings.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Favourite Things →
+                </a>
+
+                <a href="./DAY1/student-id-inline.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Student ID →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 2 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 02
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY2/Task1/student-profile.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Student Profile →
+                </a>
+
+                <a href="./DAY2/Task2/IT-company.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    IT Company →
+                </a>
+
+                <a href="./DAY2/Task3/clg-dept-cards.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    College ID →
+                </a>
+
+                <a href="./DAY2/Task4/Fav-thing.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Favourites →
+                </a>
+
+                <a href="./DAY2/Task5/chennai-IT.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Chennai IT →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 3 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 03
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY3/Task1/student-profile.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Student Profile →
+                </a>
+
+                <a href="./DAY3/Task2/product.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Product →
+                </a>
+
+                <a href="./DAY3/Task3/Company.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Company →
+                </a>
+
+                <a href="./DAY3/Task4/Article.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Article →
+                </a>
+
+                <a href="./DAY3/Task5/Box-Model.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Box Model →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 4 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 04
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY4/Task1/inline-block.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Inline Block →
+                </a>
+
+                <a href="./DAY4/Task2/flex.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Flex →
+                </a>
+
+                <a href="./DAY4/Task3/propertis.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Properties →
+                </a>
+
+                <a href="./DAY4/Task4/Display.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Display →
+                </a>
+
+                <a href="./DAY4/Task5/card.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Card →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 5 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 05
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY5/fragrance.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Fragrance →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 5.1 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 05.1
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY5.1/Task1/student-dashboard.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Student Dashboard →
+                </a>
+
+                <a href="./DAY5.1/Task2/product.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Product →
+                </a>
+
+                <a href="./DAY5.1/Task3/protofilo.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Portfolio →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 6 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 06
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY6/Task1/fixed.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Fixed →
+                </a>
+
+                <a href="./DAY6/Task3/relative.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Relative →
+                </a>
+
+                <a href="./DAY6/Task5/comparsion.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Comparison →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 7 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 07
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY7/Task1/image-gallery.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Image Gallery →
+                </a>
+
+                <a href="./DAY7/Task2/student-dashboard.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Student Dashboard →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 8 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 08
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY8/Task1/button.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Button →
+                </a>
+
+                <a href="./DAY8/Task2/form.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Form →
+                </a>
+
+                <a href="./DAY8/Task4/pseudo.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Pseudo →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 9 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 09
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY9/Task1/Animation.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Animation →
+                </a>
+
+                <a href="./DAY9/Task2/image.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Images →
+                </a>
+
+                <a href="./DAY9/Task3/product.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Products →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Day 10 -->
+        <section class="mb-12">
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    DAY 10
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./DAY10/Task2/e-commerce.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    E-commerce Webpage →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Flex Layout -->
+        <section>
+
+            <div class="mb-5 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-blue-400">
+                    FLEX LAYOUT
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-6 gap-y-3">
+
+                <a href="./Flex layout/flex.html"
+                    class="text-slate-300 transition hover:text-blue-400">
+                    Product Webpage →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="mt-12 border-t border-slate-800 px-6 py-8 text-center">
+
+        <p class="text-sm text-slate-500">
+            Code Progress • CSS Learning Journey 💻
+        </p>
+
+    </footer>
+
 </body>
+
 </html>

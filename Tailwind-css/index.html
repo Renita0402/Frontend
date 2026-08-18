@@ -1,102 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind CSS Days — Code Progress</title>
-  <meta name="description" content="Explore Tailwind CSS daily learning milestones from atomic utilities to dashboards.">
-  <link rel="icon" href="../ASSIGNMENT/assets/images/Techlogo.png" type="image/png">
-  <link rel="stylesheet" href="../ASSIGNMENT/assets/css/platform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tailwind CSS Tasks | Code Progress</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
 
-  <!-- Enhanced Site Header -->
-  <header class="site-header">
-    <div class="site-container header-inner">
-      <a href="../index.html" class="brand-link">
-        <img src="../ASSIGNMENT/assets/images/Techlogo.png" alt="Code Progress" class="brand-img">
-        <div>
-          <span class="brand-text">Code Progress</span>
-          <span class="brand-sub">Frontend Learning Platform</span>
+<body class="min-h-screen bg-slate-950 text-white">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-950">
+
+        <div class="mx-auto max-w-6xl px-6 py-6">
+
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-widest text-cyan-400">
+                        Code Progress
+                    </p>
+
+                    <h1 class="mt-1 text-3xl font-bold sm:text-4xl">
+                        Tailwind CSS Tasks
+                    </h1>
+
+                    <p class="mt-2 text-sm text-slate-400">
+                        My Tailwind CSS learning tasks and daily practice.
+                    </p>
+                </div>
+
+                <a href="../index.html"
+                    class="w-fit rounded-lg border border-slate-700 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-cyan-400 hover:text-cyan-400">
+                    ← Back to Home
+                </a>
+
+            </div>
+
         </div>
-      </a>
 
-      <!-- Enhanced Center Navigation -->
-      <nav class="header-nav-center">
-        <a href="../index.html" class="header-nav-link">Home</a>
-        <a href="../HTML5/index.html" class="header-nav-link"><span class="nav-tag-dot html"></span> HTML5</a>
-        <a href="../CSS3/index.html" class="header-nav-link"><span class="nav-tag-dot css"></span> CSS3</a>
-        <a href="../BOOTSTRAP5/index.html" class="header-nav-link"><span class="nav-tag-dot bs"></span> Bootstrap 5</a>
-        <a href="../Tailwind-css/index.html" class="header-nav-link active"><span class="nav-tag-dot tw"></span> Tailwind CSS</a>
-      </nav>
+    </header>
 
-      <div class="header-actions">
-        <button class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
-          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </header>
 
-  <!-- Breadcrumb Bar -->
-  <div class="breadcrumb-bar">
-    <div class="site-container">
-      <nav class="breadcrumb-nav">
-        <a href="../index.html">Home</a>
-        <span class="sep">/</span>
-        <span class="current">Tailwind CSS Track</span>
-      </nav>
-    </div>
-  </div>
+    <!-- Tasks -->
+    <main class="mx-auto max-w-6xl px-6 py-12">
 
-  <!-- Track Page Header -->
-  <section class="track-page-header">
-    <div class="site-container track-header-content">
-      <div>
-        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
-          <span class="track-icon-badge" style="width: 32px; height: 32px; font-size: 0.8rem; background: var(--tech-tw-bg); color: var(--tech-tw-text); border: 1px solid var(--tech-tw-border);">TW</span>
-          <span class="hero-pill" style="margin-bottom: 0;">2 Learning Days</span>
-        </div>
-        <h1 class="track-header-title">Tailwind CSS Learning Days</h1>
-        <p class="track-header-desc">
-          Select a learning day below to explore utility fundamentals, component cards, and full dashboard interfaces.
+        <!-- Day 1 -->
+        <section>
+
+            <div class="mb-6 flex items-center gap-3">
+
+                <span class="text-sm font-bold text-cyan-400">
+                    DAY 01
+                </span>
+
+                <div class="h-px flex-1 bg-slate-800"></div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-x-8 gap-y-4">
+
+                <a href="./DAY1/TASK1/box.html"
+                    class="text-slate-300 transition duration-200 hover:text-cyan-400">
+                    Box →
+                </a>
+
+                <a href="./DAY1/TASK2/text.html"
+                    class="text-slate-300 transition duration-200 hover:text-cyan-400">
+                    Text →
+                </a>
+
+                <a href="./DAY1/TASK3/button.html"
+                    class="text-slate-300 transition duration-200 hover:text-cyan-400">
+                    Button →
+                </a>
+
+                <a href="./DAY1/TASK4/Two-Box.html"
+                    class="text-slate-300 transition duration-200 hover:text-cyan-400">
+                    Two Box →
+                </a>
+
+                <a href="./DAY1/TASK5/hover.html"
+                    class="text-slate-300 transition duration-200 hover:text-cyan-400">
+                    Hover →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="mt-12 border-t border-slate-800 px-6 py-8 text-center">
+
+        <p class="text-sm text-slate-500">
+            Code Progress • Tailwind CSS Learning Journey 💻
         </p>
-      </div>
 
-      <a href="../day.html?day=tw-day-1" class="btn btn-primary btn-sm">
-        <span>Start Day 01 →</span>
-      </a>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Days Grid -->
-  <main class="site-container days-list-section">
-    <div class="days-list-grid" id="track-days-container" data-track="tailwind">
-      <!-- Populated dynamically via platform.js -->
-    </div>
-  </main>
-
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="site-container footer-inner">
-      <span>© 2026 Code Progress • Tailwind CSS Track</span>
-      <a href="../index.html" style="color: var(--brand-primary); font-weight: 600;">← Back to Home</a>
-    </div>
-  </footer>
-
-  <script src="../ASSIGNMENT/assets/js/platform.js"></script>
 </body>
+
 </html>
