@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var let const</title>
+</head>
+<body>
+    <h1>Difference Between var, let, and const</h1>
+
+<script src="assets/js/index.js"></script>
+
+<div></div>
+<h2>1. Scope</h2>
+<p>Scope defines where a variable can be accessed in a program.
+
+<h3>var  Function Scope </h3>
+<p>A var variable is accessible throughout the function in which it is declared. </p>
+<p>It does not follow block scope.</p>
+<h3>let  Block Scope</h3>
+<p>A let variable can only be accessed inside the block { } where it is declared. </p>
+<h3>const  Block Scope</h3>
+A const variable is also accessible only within the block where it is declared.</p>
+</div>
+<hr>
+<div>
+    <h2>2 .Redeclaration</h2>
+    <p>var Redeclaration is allowed.</p>
+    <p>let  Redeclaration is not allowed.</p>
+    <p>const  Redeclaration is not allowed.</p>
+    <p>This makes let and const safer because they prevent accidental duplicate declarations.</p>
+</div>
+<hr>
+<div>
+    <h3>3. Reassignment</h3>
+    <p>Reassignment means changing the value of an already declared variable.</p>
+    <p>var  Reassignment is allowed.</p>
+    <p>let  Reassignment is allowed.</p>
+    <p>const  Reassignment is not allowed.</p>
+    <p>A const variable must be assigned a value when it is declared.</p>
+</div>
+<hr>
+<div>
+    <h2>4. Hoisting</h2>
+    <p>Hoisting is JavaScript's behavior of processing declarations before executing the code.</p>
+    <p>var is hoisted and initialized with undefined.</p>
+    <p>let is hoisted but is not initialized until the declaration is reached during execution.</p>
+    <p>const is also hoisted but is not initialized until the declaration is reached.</p>
+    <p>Therefore, accessing a var variable before its declaration results in undefined, while accessing let or const before their declaration results in a ReferenceError.</p>
+</div>
+<hr>
+<div>
+    <h2>5. Temporal Dead Zone (TDZ)</h2>
+    <p>The Temporal Dead Zone (TDZ) is the period between entering the scope of a let or const variable and reaching its declaration.</p>
+    <p>During this period, the variable cannot be accessed.</p>
+     <p>var  Does not have a TDZ.</p>
+     <p>let  Has a TDZ.</p>
+     <p>const Has a TDZ.</p>
+</div>
+</body>
+</html>                                                     
