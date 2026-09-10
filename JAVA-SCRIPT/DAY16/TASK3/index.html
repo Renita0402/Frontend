@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+input,
+button {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+
+    <h1>Product Details</h1>
+
+    <form id="productForm">
+
+        <input type="text" id="productName" placeholder="Product Name">
+
+        <input type="number" id="price" placeholder="Price">
+
+        <input type="text" id="category" placeholder="Category">
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+    <div id="productContainer"></div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
