@@ -5,7 +5,7 @@ const Student = () => {
   const course = "Fullstack Development";
   const isActive = true;
   const fees = 40000;
-
+T
   return (
     <>
       <div>
